@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Cinema xmlns:tns="http://www.example.org/Cinéma" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Cinéma Cinema.xsd ">
+  <tns:Film id="1" type="comédie">
+    <tns:titre>tns:titre1</tns:titre>
+    <tns:année>tns:année</tns:année>
+    <tns:réalisateur>azerty</tns:réalisateur>
+  </tns:Film>
+  <tns:Producteur>
+    <tns:nom>tns:nom</tns:nom>
+    <tns:Film id="2" type="action">
+      <tns:titre>tns:titre2</tns:titre>
+      <tns:année>tns:année</tns:année>
+      <tns:réalisateur>abc</tns:réalisateur>
+    </tns:Film>
+  </tns:Producteur>
+</tns:Cinema>
